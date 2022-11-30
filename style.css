@@ -1,0 +1,56 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+.text-voilet {
+  color: #db87ff;
+}
+
+.bg-grad {
+  background: linear-gradient(to right, rgba(138, 35, 135, 0.6), rgba(233, 64, 87, 0.6), rgba(242, 113, 33, 0.6));
+  -webkit-backdrop-filter: blur(0.3rem);
+          backdrop-filter: blur(0.3rem);
+}
+
+.navbar-brand {
+  color: #db87ff;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.LoginBody, .RegisterBody {
+  max-width: 100vw;
+  height: 100vh;
+}
+
+.LoginBody {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("./assets/login.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.RegisterBody {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("./assets/sander-weeteling-MZKEqRie4-Y-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#submitReg:hover {
+  background-color: #449c7c;
+  border: rgb(5, 37, 5);
+}
+
+.custDropDown {
+  height: 40vh;
+  width: 35vh;
+}
+
+#header {
+  background-color: #ced4da;
+  height: 95vh;
+}/*# sourceMappingURL=style.css.map */
